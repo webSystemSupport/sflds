@@ -1,0 +1,9 @@
+<h5>Please feel free to contact us</h4><hr>
+<h5>*- Required field</h5>
+<div class="col-sm-2">Your Name *:</div>[text* your-name minlength:2 maxlength:64]
+<div class="col-sm-2">Your Email *:</div>[email* your-email minlength:6 maxlength:128]
+<div class="col-sm-2">Subject:</div>[text your-subject maxlength:140]<hr> 
+<div class="col-sm-2">Your Message *:</div>
+[textarea* your-message maxlength:1024]<br>[count your-message down] characters left
+[recaptcha size:compact]
+[submit "Send"]
